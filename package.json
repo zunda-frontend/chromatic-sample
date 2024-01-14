@@ -1,0 +1,41 @@
+{
+  "name": "chromatic-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "chromatic": "source .env && pnpx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zawa1205/chromatic-sample.git"
+  },
+  "author": {
+    "name": "zawa1205"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zawa1205/chromatic-sample/issues"
+  },
+  "homepage": "https://github.com/zawa1205/chromatic-sample#readme",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.8",
+    "@storybook/addon-interactions": "^7.6.8",
+    "@storybook/addon-links": "^7.6.8",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.8",
+    "@storybook/react": "^7.6.8",
+    "@storybook/react-vite": "^7.6.8",
+    "@storybook/test": "^7.6.8",
+    "chromatic": "^10.2.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.8"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "chromatic-sample@1.0.0"
+}

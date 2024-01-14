@@ -1,0 +1,7 @@
+.env
+
+# storybook
+node_modules
+
+# chromatic
+build-storybook.log
